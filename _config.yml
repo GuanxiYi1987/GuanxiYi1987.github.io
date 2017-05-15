@@ -1,0 +1,43 @@
+# Site settings
+title: Guanxi Yi's Personal Site
+description: Guanxi Yi's Personal Site
+baseurl: "/guanxi" # the subpath of your site, e.g. /blog
+url: "https://guanxiyi1987.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Guanxi Yi
+user_description: Quantitative Researcher
+user_title: Researcher
+email: guanxiyi@gmail.com
+twitter_username: GuanxiYi
+github_username:  GuanxiYi1987
+gplus_username:  Guanxi Yi
+disqus_username: Guanxi Yi
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
